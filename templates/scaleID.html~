@@ -492,9 +492,6 @@
     </div>
 
 
-    <script type="text/javascript">waapisimLogEnable=1;</script>
-    <script type="text/javascript">waapisimForceSim=1;</script>
-    <script type="text/javascript">waapisimForceSimWhenNotWebkit=1;</script>
     <script src = "/static/js/jquery.js"></script>
     <script src = "/static/js/bootstrap.min.js"></script>
     <script src = "/static/js/waapisim.js"></script>
