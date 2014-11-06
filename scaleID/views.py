@@ -4,11 +4,6 @@ from django.template import RequestContext, loader
 from scaleID.models import Visit, Comparison
 import numpy as np
 
-<<<<<<< HEAD
-from django.views.decorators.csrf import csrf_exempt
-
-=======
->>>>>>> upd/master
 #set id for the whole session
 # submit comparisons
 # submit survey
@@ -33,11 +28,8 @@ def scaleID(request):
     return render_to_response("scaleID.html", {}, context_instance=RequestContext(request))
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> upd/master
 def post_survey(request):
 
     print "confirming that visit id has survived in session: " + str(request.session["visit_id"])
@@ -89,10 +81,7 @@ def post_survey(request):
 
     return HttpResponse(message)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> upd/master
 def post_comparison(request):
 
     print "post comparison API has been called"
